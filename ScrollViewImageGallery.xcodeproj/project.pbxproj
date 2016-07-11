@@ -13,6 +13,7 @@
 		A7CC3D771D3412950031B89F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CC3D751D3412950031B89F /* Main.storyboard */; };
 		A7CC3D791D3412950031B89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CC3D781D3412950031B89F /* Assets.xcassets */; };
 		A7CC3D7C1D3412950031B89F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CC3D7A1D3412950031B89F /* LaunchScreen.storyboard */; };
+		A7CC3D841D3414760031B89F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CC3D831D3414760031B89F /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A7CC3D781D3412950031B89F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7CC3D7B1D3412950031B89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7CC3D7D1D3412950031B89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CC3D831D3414760031B89F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../../../../Downloads/ScrollView-Images-master/Images.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,11 @@
 		A7CC3D6B1D3412950031B89F /* ScrollViewImageGallery */ = {
 			isa = PBXGroup;
 			children = (
-				A7CC3D6F1D3412950031B89F /* AppDelegate.h */,
-				A7CC3D701D3412950031B89F /* AppDelegate.m */,
 				A7CC3D721D3412950031B89F /* ViewController.h */,
 				A7CC3D731D3412950031B89F /* ViewController.m */,
 				A7CC3D751D3412950031B89F /* Main.storyboard */,
+				A7CC3D831D3414760031B89F /* Images.xcassets */,
 				A7CC3D781D3412950031B89F /* Assets.xcassets */,
-				A7CC3D7A1D3412950031B89F /* LaunchScreen.storyboard */,
 				A7CC3D7D1D3412950031B89F /* Info.plist */,
 				A7CC3D6C1D3412950031B89F /* Supporting Files */,
 			);
@@ -74,6 +74,9 @@
 		A7CC3D6C1D3412950031B89F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A7CC3D6F1D3412950031B89F /* AppDelegate.h */,
+				A7CC3D701D3412950031B89F /* AppDelegate.m */,
+				A7CC3D7A1D3412950031B89F /* LaunchScreen.storyboard */,
 				A7CC3D6D1D3412950031B89F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -110,6 +113,7 @@
 				TargetAttributes = {
 					A7CC3D681D3412950031B89F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 63KC5QA6CB;
 					};
 				};
 			};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7CC3D7C1D3412950031B89F /* LaunchScreen.storyboard in Resources */,
+				A7CC3D841D3414760031B89F /* Images.xcassets in Resources */,
 				A7CC3D791D3412950031B89F /* Assets.xcassets in Resources */,
 				A7CC3D771D3412950031B89F /* Main.storyboard in Resources */,
 			);
@@ -265,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScrollViewImageGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RJM.ScrollViewImageGallery;
@@ -276,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScrollViewImageGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RJM.ScrollViewImageGallery;
