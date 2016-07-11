@@ -14,6 +14,7 @@
 		A7CC3D791D3412950031B89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CC3D781D3412950031B89F /* Assets.xcassets */; };
 		A7CC3D7C1D3412950031B89F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CC3D7A1D3412950031B89F /* LaunchScreen.storyboard */; };
 		A7CC3D841D3414760031B89F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CC3D831D3414760031B89F /* Images.xcassets */; };
+		A7CC3D871D344A0A0031B89F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D861D344A0A0031B89F /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		A7CC3D7B1D3412950031B89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7CC3D7D1D3412950031B89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7CC3D831D3414760031B89F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../../../../Downloads/ScrollView-Images-master/Images.xcassets"; sourceTree = "<group>"; };
+		A7CC3D851D344A0A0031B89F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A7CC3D861D344A0A0031B89F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				A7CC3D721D3412950031B89F /* ViewController.h */,
 				A7CC3D731D3412950031B89F /* ViewController.m */,
 				A7CC3D751D3412950031B89F /* Main.storyboard */,
+				A7CC3D851D344A0A0031B89F /* DetailViewController.h */,
+				A7CC3D861D344A0A0031B89F /* DetailViewController.m */,
 				A7CC3D831D3414760031B89F /* Images.xcassets */,
 				A7CC3D781D3412950031B89F /* Assets.xcassets */,
 				A7CC3D7D1D3412950031B89F /* Info.plist */,
@@ -157,6 +162,7 @@
 				A7CC3D741D3412950031B89F /* ViewController.m in Sources */,
 				A7CC3D711D3412950031B89F /* AppDelegate.m in Sources */,
 				A7CC3D6E1D3412950031B89F /* main.m in Sources */,
+				A7CC3D871D344A0A0031B89F /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
